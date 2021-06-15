@@ -11,16 +11,8 @@ public class Main {
     //TODO Create proxy class for service.
     do {
       // TODO Play a single game.
-
-    }
-    boolean running;
-
-    do {
-      // TODO Play a single game.
-      // TODO Ask the user if they want to play again; set running accordingly.
     } while (queryReplay(scanner, bundle));
   }
-
 
   private static boolean queryReplay(Scanner scanner, ResourceBundle bundle) {
     System.out.println(bundle.getString("replay_prompt"));
