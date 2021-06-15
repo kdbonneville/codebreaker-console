@@ -37,7 +37,7 @@ assemble {
 }
 
 application {
-    mainClass = 'edu.cnm.deepdive.Main' as Property<String>
+    mainClass = 'edu.cnm.deepdive.Main'
 }
 
 run {
