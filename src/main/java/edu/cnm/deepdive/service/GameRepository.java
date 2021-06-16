@@ -17,7 +17,7 @@ public class GameRepository {
     gameStub.setPool(pool);
     gameStub.setLength(length);
     Response<Game> response = proxy.startGame(gameStub).execute();
-    if (response.isSuccessful()) {
+    if (!response.isSuccessful()) {
       throw new IllegalArgumentException();
     }
     return response.body();
